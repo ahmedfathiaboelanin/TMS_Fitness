@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMR Calculator</title>
+    <link rel="stylesheet" href="bmr.css">
+    <link rel="js" href="bmr.js">
+</head>
+<body>
+    <div class="logo">
+        <a href="C:\Users\tech planet\Desktop\html\New folder\tamplet.html"><img src="tms.jpg" alt="logo" title="main bage" class="tms"></a>
+    </div>
+    <h1>BMR Calculator</h1>
+    <div class="container">
+        <input id="age" type="number" placeholder="please enter your age.." maxlength="2" required>
+        <input id="weight" type="number" placeholder="please enter your weight.." required>
+        <input id="length" type="number" placeholder="please enter your length.." required>
+        <input id="fat" type="number" placeholder="Enter your fat percentage if it possible.." maxlength="2">
+        <br>
+        <div class="checkbox">
+        <label for="gender">Gender :</label>
+        <input id="gender" type="text" name="gender" placeholder="male or female" minlength="4" maxlength="6">
+        <!-- <label for="female">female</label>
+        <input id="female" type="radio" name="gender" value="female"> -->
+        </div>
+        <small id="total">Your BMR is :</small>
+        <p> Hint: your weight should be in Kg and your length should be in cm. </p>
+        <button onclick="calculate()" id="submit">calculate</button>
+    </div>
+    <div class="back">
+        <a title="Back to the main page" href="C:\Users\tech planet\Desktop\index.html"><img src="back.png" alt="Back"title="Back to the main page"></a>
+    </div>
+    <script  src="bmr.js"></script>
+</body>
+</html>

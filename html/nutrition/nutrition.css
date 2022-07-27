@@ -1,0 +1,17 @@
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: 30% 100%;
+    text-align: center;
+}
+a{
+    color:white;
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    padding: auto;
+
+}
+img{
+    width: 300px;
+}

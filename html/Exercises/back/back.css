@@ -1,0 +1,20 @@
+body{
+    background-image: url(1.jpg);
+    background-size: contain;
+    text-align: center;
+}
+div{
+    color: white;
+}
+#head{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+a{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}

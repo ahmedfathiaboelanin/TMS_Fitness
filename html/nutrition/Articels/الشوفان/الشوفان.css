@@ -1,0 +1,21 @@
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    direction: rtl;
+}
+div{
+    color: white;
+    font-size: large;
+}
+#الرجوع{
+    text-align: center;
+    text-decoration: none;
+    color:green;
+    font-size: xx-large;
+    font-weight:bolder;
+    text-align:center"
+}
+p{
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,27 @@
+form{
+
+}
+body{
+    text-align: center;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    color: white;
+    font-size: larger;
+}
+p{
+    color: white;
+    font-size: larger;
+}
+#p1{
+    color: white;
+    font-size: xx-large;
+}
+a{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration:wavy;
+}

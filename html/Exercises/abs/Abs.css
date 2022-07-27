@@ -1,0 +1,11 @@
+body{
+    background-image:url(1.jpg);
+    background-size: contain;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
